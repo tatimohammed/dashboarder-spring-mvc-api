@@ -11,6 +11,7 @@ import com.tati.utils.YoutubeAPI;
 
 import java.util.List;
 
+@CrossOrigin("*")
 @RestController
 public class YoutubeAPIController {
 	
