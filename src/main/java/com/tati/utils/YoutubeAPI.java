@@ -22,7 +22,7 @@ import java.util.ArrayList;
 
 public class YoutubeAPI {
 	private static final String APPLICATION_NAME = "Youtube API Java Sample";
-	private static final String API_KEY = "AIzaSyCBmLy45mYuHpPvmiSNV3kvsZrsgdl7uvc";
+	private static final String API_KEY = "YOUR_API_KEY";
 
 	// Getting Video data based on the URL
 	public List<String> getVideoData(String url) {
