@@ -112,14 +112,14 @@ public class YoutubeAPI {
 			// list = [Title, Published At, View Count, Like Count, Comment Count,
 			// engagement_rate,Channel name, Most popular video title, Most popular video
 			// link]
-			list.add(videoTitle);
+			list.add(videoTitle.replaceAll("&#39;", "'"));
 			list.add(publishedAt);
 			list.add(viewCount);
 			list.add(likeCount);
 			list.add(commentCount);
 			list.add(engagementRate);
-			list.add(channelTitle);
-			list.add(videoPopularTitle);
+			list.add(channelTitle.replaceAll("&#39;", "'"));
+			list.add(videoPopularTitle.replaceAll("&#39;", "'"));
 			list.add(videoLink);
 
 			return list;
